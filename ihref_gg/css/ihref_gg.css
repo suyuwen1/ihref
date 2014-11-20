@@ -1,0 +1,18 @@
+#ihref_gg1{
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index:99990;
+	width:100%;
+}
+#ihref_close{
+	font-size:12px;
+	color:white;
+	underline:none;
+	padding:2px 5px 2px 5px;
+	background-color:#FF9933;
+	position:fixed;
+	right:20px;
+	top:20px;
+	z-index:99992;
+}
