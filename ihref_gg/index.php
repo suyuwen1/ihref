@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -8,7 +7,9 @@
 
 <body>
 <div id="123">
+1233
 <script src="js/c.js" type="text/javascript"></script>
+234577
 </div>
 </body>
 </html>
