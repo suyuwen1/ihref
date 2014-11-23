@@ -1,4 +1,10 @@
-document.write('<div style="width:100%;position:fixed;left:0px;top:0px;z-index:99998;"id="ihref_gg1"><iframe frameborder="0" style="z-index: 99999; width: 100%; height: 500px; border: 0px none;" scrolling="no" src="http://www.baidu.com"></iframe></div>');
-$(function(){
+$("head").append('<link href="css/ihref_gg.css" rel="stylesheet" type="text/css">');
 
+document.write('<div id="ihref_gg1"><div id="ihref_body"><iframe frameborder="0" scrolling="no" src="index.php" style="z-index: 99991; width: 100%; height: 500px; border: 0px;"></iframe><a id="ihref_close" href="javacript:void(0)">关闭</a></div></div>');
+
+$(function(){
+	$("ihref_gg1").stop().slideDown('fast');
+	$("#ihref_close").click(function(){
+		$("#ihref_gg1").stop().slideUp("fast");
+	});
 })
