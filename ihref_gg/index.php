@@ -32,7 +32,7 @@
 	</div>
 	<div id="down">
 		<ul>
-			<li class="list list1" i="1"><span class="bt"><a href="#">移动电源</a></span><span class="jg">¥ 130.9</span></li>
+			<li class="list list1" i="1"><span class="bt"><a href="#">移动电源</a></span><span class="jg">¥ 49.9</span></li>
 			<li class="list" i="2"><span class="bt"><a href="#">Iphone 6 plus</a></span><span class="jg">¥ 130</span></li>
 			<li class="list" i="3"><span class="bt"><a href="#">移动电源</a></span><span class="jg">¥ 9.9</span></li>
 			<li class="list" i="4"><span class="bt"><a href="#">Iphone 6 plus</a></span><span class="jg">¥ 11</span></li>
