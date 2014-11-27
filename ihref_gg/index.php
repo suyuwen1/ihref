@@ -35,7 +35,7 @@ a{
 	outline: none;
 }
 a:link{
-	color: #000;
+	/*color: #000;*/
 	text-decoration: none;
 }
 a:visited{
@@ -45,14 +45,20 @@ a:hover{
 	color: #C10001;
 	text-decoration: underline;
 }
+img{
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	border: none 0px;
+}
 #main{
 	text-align: center;
 }
 #top{
 	width: 1330px;
-	height: 410px
+	height: 410px;
 	margin: 0px auto 0px auto;
-	margin-bottom: 2px;
+	/*margin-bottom: 2px;*/
 }
 #down{
 	width: 1330px;
@@ -72,16 +78,18 @@ a:hover{
 	width: 253px;
 	display: inline-block;
 	float: left;
-	border: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
 	padding: 5px;
-	border-radius: 3px;
+	/*border-radius: 3px;*/
 	margin-right: 1px;
 }
-.list:hover{
+/*.list:hover{
 	border: 1px solid #bc0000;
-}
+}*/
 .list1{
-	border: 1px solid #bc0000;
+	background-color: #cccccc;
+	/*border: 1px solid #bc0000;*/
 }
 .list span{
 	display: block;
@@ -89,6 +97,9 @@ a:hover{
 .list .bt{
 	font-size: 14px;
 	margin: 5px 0px 5px 0px;
+}
+.list .bt a{
+	color: #000;
 }
 .list .jg{
 	font-size: 28px;
