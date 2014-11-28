@@ -14,9 +14,12 @@
 			var i=$(this).attr('i');
 			$("#img"+i).addClass('img1').siblings('.img').removeClass('img1');
 		});
-		for (var i = 2; i <= $(".img").length; i++) {
-			$("#img"+i+" a img").attr('src', 'img/'+i+'.jpg');
-		};
+		function img_load(){
+			for (var i = 2; i <= $(".img").length; i++) {
+				$("#img"+i+" a img").attr('src', 'img/'+i+'.jpg');
+			};
+		}
+		setTimeout(img_load,500);
 	})
 </script>
 <style type="text/css">
