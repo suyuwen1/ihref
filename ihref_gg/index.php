@@ -19,7 +19,7 @@
 				$("#img"+i+" a img").attr('src', 'img/'+i+'.jpg');
 			};
 		}
-		setTimeout(img_load,500);
+		setTimeout(img_load,100);
 	})
 </script>
 <style type="text/css">
@@ -77,6 +77,9 @@ img{
 }
 .img1{
 	display: block;
+}
+#img1{
+	background-color: <?php echo $ys[0] ?>;
 }
 .list{
 	background-color: #ffffff;
